@@ -30,16 +30,25 @@ L’approche adoptée est **modulaire** : chaque étape est contenue dans un not
 
 ## Arborescence du projet
 
-projet ia n°de siren/
-├── annonces légales/ # Fichiers sources (PDF et TXT)/
-├── script python/ # Notebooks Jupyter et scripts/
-│ ├── auto apprentissage.ipynb/
-│ ├── entrainement ia.ipynb/
-│ ├── exctraction du siren robuste.ipynb/
-│ └── donnees_entrainement/
-├── modeles_ner/ # Modèles NER entraînés/
-├── model_output/ # Modèles finaux générés/
-└── resultats/ # Résultats d’extraction horodatés/
+projet ia n°de siren
+
+├── annonces légales/ # Fichiers sources (PDF et TXT)
+
+├── script python/ # Notebooks Jupyter et scripts
+
+│ ├── auto apprentissage.ipynb
+
+│ ├── entrainement ia.ipynb
+
+│ ├── exctraction du siren robuste.ipynb
+
+│ └── donnees_entrainement
+
+├── modeles_ner/ # Modèles NER entraînés
+
+├── model_output/ # Modèles finaux générés
+
+└── resultats/ # Résultats d’extraction horodatés
 
 ---
 

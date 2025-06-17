@@ -1,0 +1,135 @@
+{
+    "fichier_source": "test annonce légale saone et loire 0206.txt",
+    "date_extraction": "2025-06-12T10:52:58.351498",
+    "siren_valides": [
+        {
+            "siren": "818467615",
+            "valide": true
+        },
+        {
+            "siren": "884297169",
+            "valide": true
+        },
+        {
+            "siren": "507384683",
+            "valide": true
+        },
+        {
+            "siren": "888617651",
+            "valide": true
+        },
+        {
+            "siren": "889671509",
+            "valide": true
+        },
+        {
+            "siren": "513603472",
+            "valide": true
+        },
+        {
+            "siren": "850847955",
+            "valide": true
+        },
+        {
+            "siren": "931808331",
+            "valide": true
+        },
+        {
+            "siren": "891748444",
+            "valide": true
+        },
+        {
+            "siren": "893609776",
+            "valide": true
+        },
+        {
+            "siren": "685550659",
+            "valide": true
+        },
+        {
+            "siren": "404146656",
+            "valide": true
+        },
+        {
+            "siren": "980904890",
+            "valide": true
+        },
+        {
+            "siren": "833143662",
+            "valide": true
+        },
+        {
+            "siren": "499901205",
+            "valide": true
+        },
+        {
+            "siren": "915366520",
+            "valide": true
+        },
+        {
+            "siren": "929199701",
+            "valide": true
+        },
+        {
+            "siren": "451132534",
+            "valide": true
+        },
+        {
+            "siren": "531997294",
+            "valide": true
+        },
+        {
+            "siren": "887913424",
+            "valide": true
+        },
+        {
+            "siren": "808775639",
+            "valide": true
+        },
+        {
+            "siren": "518776562",
+            "valide": true
+        },
+        {
+            "siren": "750626269",
+            "valide": true
+        },
+        {
+            "siren": "750583486",
+            "valide": true
+        },
+        {
+            "siren": "847815826",
+            "valide": true
+        },
+        {
+            "siren": "483629036",
+            "valide": true
+        },
+        {
+            "siren": "317587038",
+            "valide": true
+        },
+        {
+            "siren": "970506812",
+            "valide": true
+        },
+        {
+            "siren": "948790381",
+            "valide": true
+        },
+        {
+            "siren": "840026298",
+            "valide": true
+        },
+        {
+            "siren": "822894770",
+            "valide": true
+        },
+        {
+            "siren": "851006817",
+            "valide": true
+        }
+    ],
+    "siren_invalides": []
+}

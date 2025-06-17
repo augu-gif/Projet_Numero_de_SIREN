@@ -1,0 +1,640 @@
+{
+    "fichier_source": "test annonce legale nord 0206.txt",
+    "date_extraction": "2025-06-12T09:22:46.249236",
+    "siren_valides": [
+        {
+            "siren": "834120321",
+            "valide": true
+        },
+        {
+            "siren": "449334440",
+            "valide": true
+        },
+        {
+            "siren": "538699778",
+            "valide": true
+        },
+        {
+            "siren": "879982270",
+            "valide": true
+        },
+        {
+            "siren": "801999574",
+            "valide": true
+        },
+        {
+            "siren": "931435648",
+            "valide": true
+        },
+        {
+            "siren": "887679686",
+            "valide": true
+        },
+        {
+            "siren": "987803962",
+            "valide": true
+        },
+        {
+            "siren": "980606800",
+            "valide": true
+        },
+        {
+            "siren": "383061801",
+            "valide": true
+        },
+        {
+            "siren": "850493123",
+            "valide": true
+        },
+        {
+            "siren": "480855634",
+            "valide": true
+        },
+        {
+            "siren": "832504740",
+            "valide": true
+        },
+        {
+            "siren": "752021386",
+            "valide": true
+        },
+        {
+            "siren": "829080779",
+            "valide": true
+        },
+        {
+            "siren": "075750364",
+            "valide": true
+        },
+        {
+            "siren": "399403617",
+            "valide": true
+        },
+        {
+            "siren": "932917560",
+            "valide": true
+        },
+        {
+            "siren": "824286850",
+            "valide": true
+        },
+        {
+            "siren": "411308828",
+            "valide": true
+        },
+        {
+            "siren": "388746836",
+            "valide": true
+        },
+        {
+            "siren": "983913567",
+            "valide": true
+        },
+        {
+            "siren": "982687865",
+            "valide": true
+        },
+        {
+            "siren": "524833373",
+            "valide": true
+        },
+        {
+            "siren": "982033334",
+            "valide": true
+        },
+        {
+            "siren": "891617730",
+            "valide": true
+        },
+        {
+            "siren": "891595753",
+            "valide": true
+        },
+        {
+            "siren": "488754631",
+            "valide": true
+        },
+        {
+            "siren": "424839488",
+            "valide": true
+        },
+        {
+            "siren": "434333365",
+            "valide": true
+        },
+        {
+            "siren": "448947127",
+            "valide": true
+        },
+        {
+            "siren": "533675443",
+            "valide": true
+        },
+        {
+            "siren": "849365291",
+            "valide": true
+        },
+        {
+            "siren": "789899218",
+            "valide": true
+        },
+        {
+            "siren": "910382217",
+            "valide": true
+        },
+        {
+            "siren": "840991681",
+            "valide": true
+        },
+        {
+            "siren": "810891499",
+            "valide": true
+        },
+        {
+            "siren": "934610445",
+            "valide": true
+        },
+        {
+            "siren": "337926968",
+            "valide": true
+        },
+        {
+            "siren": "790065841",
+            "valide": true
+        },
+        {
+            "siren": "488384751",
+            "valide": true
+        },
+        {
+            "siren": "383348604",
+            "valide": true
+        },
+        {
+            "siren": "330356999",
+            "valide": true
+        },
+        {
+            "siren": "820021475",
+            "valide": true
+        },
+        {
+            "siren": "932909344",
+            "valide": true
+        },
+        {
+            "siren": "917421281",
+            "valide": true
+        },
+        {
+            "siren": "412825937",
+            "valide": true
+        },
+        {
+            "siren": "909399370",
+            "valide": true
+        },
+        {
+            "siren": "851389429",
+            "valide": true
+        },
+        {
+            "siren": "568801013",
+            "valide": true
+        },
+        {
+            "siren": "440838860",
+            "valide": true
+        },
+        {
+            "siren": "904433745",
+            "valide": true
+        },
+        {
+            "siren": "917505927",
+            "valide": true
+        },
+        {
+            "siren": "519118400",
+            "valide": true
+        },
+        {
+            "siren": "841991953",
+            "valide": true
+        },
+        {
+            "siren": "941325722",
+            "valide": true
+        },
+        {
+            "siren": "791743925",
+            "valide": true
+        },
+        {
+            "siren": "799836697",
+            "valide": true
+        },
+        {
+            "siren": "338835812",
+            "valide": true
+        },
+        {
+            "siren": "400734448",
+            "valide": true
+        },
+        {
+            "siren": "895293850",
+            "valide": true
+        },
+        {
+            "siren": "842488801",
+            "valide": true
+        },
+        {
+            "siren": "882918956",
+            "valide": true
+        },
+        {
+            "siren": "912046778",
+            "valide": true
+        },
+        {
+            "siren": "383829983",
+            "valide": true
+        },
+        {
+            "siren": "985058429",
+            "valide": true
+        },
+        {
+            "siren": "909177776",
+            "valide": true
+        },
+        {
+            "siren": "325676583",
+            "valide": true
+        },
+        {
+            "siren": "512983651",
+            "valide": true
+        },
+        {
+            "siren": "475680815",
+            "valide": true
+        },
+        {
+            "siren": "909224537",
+            "valide": true
+        },
+        {
+            "siren": "898360524",
+            "valide": true
+        },
+        {
+            "siren": "852816040",
+            "valide": true
+        },
+        {
+            "siren": "910033265",
+            "valide": true
+        },
+        {
+            "siren": "440934404",
+            "valide": true
+        },
+        {
+            "siren": "927682864",
+            "valide": true
+        },
+        {
+            "siren": "983379322",
+            "valide": true
+        },
+        {
+            "siren": "984065490",
+            "valide": true
+        },
+        {
+            "siren": "908604333",
+            "valide": true
+        },
+        {
+            "siren": "305241788",
+            "valide": true
+        },
+        {
+            "siren": "492794490",
+            "valide": true
+        },
+        {
+            "siren": "538260993",
+            "valide": true
+        },
+        {
+            "siren": "331773598",
+            "valide": true
+        },
+        {
+            "siren": "830589628",
+            "valide": true
+        },
+        {
+            "siren": "498406537",
+            "valide": true
+        },
+        {
+            "siren": "538257205",
+            "valide": true
+        },
+        {
+            "siren": "517680401",
+            "valide": true
+        },
+        {
+            "siren": "833239379",
+            "valide": true
+        },
+        {
+            "siren": "508235413",
+            "valide": true
+        },
+        {
+            "siren": "934268699",
+            "valide": true
+        },
+        {
+            "siren": "813623626",
+            "valide": true
+        },
+        {
+            "siren": "931523245",
+            "valide": true
+        },
+        {
+            "siren": "834584757",
+            "valide": true
+        },
+        {
+            "siren": "938469400",
+            "valide": true
+        },
+        {
+            "siren": "921411138",
+            "valide": true
+        },
+        {
+            "siren": "933867467",
+            "valide": true
+        },
+        {
+            "siren": "883140907",
+            "valide": true
+        },
+        {
+            "siren": "814548905",
+            "valide": true
+        },
+        {
+            "siren": "934670134",
+            "valide": true
+        },
+        {
+            "siren": "403235252",
+            "valide": true
+        },
+        {
+            "siren": "829408590",
+            "valide": true
+        },
+        {
+            "siren": "798440798",
+            "valide": true
+        },
+        {
+            "siren": "783691728",
+            "valide": true
+        },
+        {
+            "siren": "948737259",
+            "valide": true
+        },
+        {
+            "siren": "813322450",
+            "valide": true
+        },
+        {
+            "siren": "493669683",
+            "valide": true
+        },
+        {
+            "siren": "811322338",
+            "valide": true
+        },
+        {
+            "siren": "410554513",
+            "valide": true
+        },
+        {
+            "siren": "892217936",
+            "valide": true
+        },
+        {
+            "siren": "948572318",
+            "valide": true
+        },
+        {
+            "siren": "484245055",
+            "valide": true
+        },
+        {
+            "siren": "929987204",
+            "valide": true
+        },
+        {
+            "siren": "892134701",
+            "valide": true
+        },
+        {
+            "siren": "935283390",
+            "valide": true
+        },
+        {
+            "siren": "811568120",
+            "valide": true
+        },
+        {
+            "siren": "984446823",
+            "valide": true
+        },
+        {
+            "siren": "882183080",
+            "valide": true
+        },
+        {
+            "siren": "349496869",
+            "valide": true
+        },
+        {
+            "siren": "983759903",
+            "valide": true
+        },
+        {
+            "siren": "404141525",
+            "valide": true
+        },
+        {
+            "siren": "842571234",
+            "valide": true
+        },
+        {
+            "siren": "908868334",
+            "valide": true
+        },
+        {
+            "siren": "908285364",
+            "valide": true
+        },
+        {
+            "siren": "925321309",
+            "valide": true
+        },
+        {
+            "siren": "537915993",
+            "valide": true
+        },
+        {
+            "siren": "344366315",
+            "valide": true
+        },
+        {
+            "siren": "310472527",
+            "valide": true
+        },
+        {
+            "siren": "814573333",
+            "valide": true
+        },
+        {
+            "siren": "814575791",
+            "valide": true
+        },
+        {
+            "siren": "812878742",
+            "valide": true
+        },
+        {
+            "siren": "880836838",
+            "valide": true
+        },
+        {
+            "siren": "834183352",
+            "valide": true
+        },
+        {
+            "siren": "828837302",
+            "valide": true
+        },
+        {
+            "siren": "981658081",
+            "valide": true
+        },
+        {
+            "siren": "853925584",
+            "valide": true
+        },
+        {
+            "siren": "493636039",
+            "valide": true
+        },
+        {
+            "siren": "939487682",
+            "valide": true
+        },
+        {
+            "siren": "795157924",
+            "valide": true
+        },
+        {
+            "siren": "935308783",
+            "valide": true
+        },
+        {
+            "siren": "851827683",
+            "valide": true
+        },
+        {
+            "siren": "927478578",
+            "valide": true
+        },
+        {
+            "siren": "949692362",
+            "valide": true
+        },
+        {
+            "siren": "518927215",
+            "valide": true
+        },
+        {
+            "siren": "672006483",
+            "valide": true
+        },
+        {
+            "siren": "943355586",
+            "valide": true
+        },
+        {
+            "siren": "404854937",
+            "valide": true
+        },
+        {
+            "siren": "912308293",
+            "valide": true
+        },
+        {
+            "siren": "915074629",
+            "valide": true
+        },
+        {
+            "siren": "883918195",
+            "valide": true
+        },
+        {
+            "siren": "903375954",
+            "valide": true
+        },
+        {
+            "siren": "529391708",
+            "valide": true
+        },
+        {
+            "siren": "893314286",
+            "valide": true
+        },
+        {
+            "siren": "345310965",
+            "valide": true
+        },
+        {
+            "siren": "832948814",
+            "valide": true
+        },
+        {
+            "siren": "897842670",
+            "valide": true
+        },
+        {
+            "siren": "452951874",
+            "valide": true
+        },
+        {
+            "siren": "913810933",
+            "valide": true
+        }
+    ],
+    "siren_invalides": [
+        {
+            "siren": "182489760",
+            "valide": false
+        }
+    ]
+}

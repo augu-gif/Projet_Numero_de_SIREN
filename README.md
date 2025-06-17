@@ -1,107 +1,95 @@
-# Projet d'Extraction de Numéros SIREN
+Extraction Automatique de Numéros SIREN
+Présentation
+Ce projet est né d’un besoin concret : automatiser l’identification des numéros SIREN dans un grand volume d’annonces légales. Ces documents, souvent peu structurés, sont publiés au format texte ou PDF, et contiennent des informations clés sur la vie des entreprises (création, transfert, dissolution...).
 
-## Description
+Extraire ces données manuellement est long, fastidieux et sujet à erreurs. L’objectif ici est donc clair : développer un outil simple, robuste et évolutif capable de repérer les numéros SIREN avec un haut niveau de fiabilité, grâce à des techniques d’intelligence artificielle et de traitement du langage naturel (NLP).
 
-Ce projet utilise l'intelligence artificielle et le traitement du langage naturel (NLP) pour extraire automatiquement les numéros SIREN à partir d'annonces légales publiées dans La Gazette. Le système est basé sur spaCy et utilise des modèles de reconnaissance d'entités nommées (NER) pour identifier et extraire les numéros SIREN avec une haute précision.
+La solution repose sur spaCy, une librairie de NLP performante, combinée à des scripts Python pour l’entraînement de modèles de type NER (Named Entity Recognition), l’extraction des textes et la génération de résultats exploitables.
 
-## Fonctionnalités
+Ce projet peut servir de base pour :
 
-- **Extraction automatique de SIREN** : Identification et extraction des numéros SIREN à partir de textes d'annonces légales
-- **Modèles NER entraînés** : Modèles spaCy personnalisés pour la reconnaissance d'entités
-- **Traitement de documents PDF** : Extraction de texte à partir de fichiers PDF de La Gazette
-- **Export multi-format** : Résultats exportés en CSV et JSON
-- **Auto-apprentissage** : Capacité d'amélioration continue des modèles
+la constitution de bases de données entreprises à partir de documents bruts ;
 
-## Structure du Projet
+l’analyse territoriale ou sectorielle ;
 
-```
+l’alimentation de tableaux de bord (Power BI, Tableau…) à partir de données non structurées ;
+
+des projets de veille ou d’automatisation dans des contextes juridiques, administratifs ou économiques.
+
+L’approche adoptée est modulaire : chaque étape est contenue dans un notebook ou un dossier bien identifié, ce qui facilite la prise en main et la personnalisation.
+
+Fonctionnalités
+Extraction automatique des numéros SIREN dans des fichiers .txt ou .pdf
+
+Modèle spaCy entraîné (NER) pour détecter les entités SIREN
+
+Traitement et nettoyage des textes d’entrée
+
+Export des résultats au format CSV et JSON
+
+Réentraînement possible via boucle d’auto-apprentissage
+
+Arborescence du projet
+bash
+Copier
+Modifier
 projet ia n°de siren/
-├── annonces légales/          # Documents source (PDF et TXT)
-├── script python/             # Scripts Python principaux
+├── annonces légales/          # Fichiers sources (PDF et TXT)
+├── script python/             # Notebooks Jupyter et scripts
 │   ├── auto apprentissage.ipynb
 │   ├── entrainement ia.ipynb
 │   ├── exctraction du siren robuste.ipynb
-│   └── donnees_entrainement/  # Données d'entraînement
-├── modeles_ner/              # Modèles NER entraînés
-├── model_output/             # Modèles de sortie et résultats
-└── resultats/                # Fichiers de résultats d'extraction
-```
+│   └── donnees_entrainement/
+├── modeles_ner/               # Modèles NER entraînés
+├── model_output/              # Modèles finaux générés
+└── resultats/                 # Résultats d’extraction horodatés
+Installation
+Prérequis
+Python 3.8 ou plus
 
-## Installation
+spaCy
 
-### Prérequis
+pandas
 
-- Python 3.8+
-- spaCy
-- pandas
-- numpy
-- jupyter
+numpy
 
-### Installation des dépendances
+jupyter notebook
 
-```bash
+Installation des bibliothèques
+bash
+Copier
+Modifier
 pip install spacy pandas numpy jupyter
 python -m spacy download fr_core_news_sm
-```
-
-## Utilisation
-
-### 1. Entraînement du modèle
-
-```bash
+Utilisation
+Entraîner le modèle
+bash
+Copier
+Modifier
 cd "script python"
 jupyter notebook entrainement ia.ipynb
-```
-
-### 2. Extraction de SIREN
-
-```bash
+Lancer l’extraction SIREN
+bash
+Copier
+Modifier
 cd "script python"
 jupyter notebook exctraction du siren robuste.ipynb
-```
-
-### 3. Auto-apprentissage
-
-```bash
+Activer l’auto-apprentissage
+bash
+Copier
+Modifier
 cd "script python"
 jupyter notebook auto apprentissage.ipynb
-```
+Modèles disponibles
+model-best/ : meilleur modèle enregistré
 
-## Modèles Disponibles
+model-last/ : dernière version entraînée
 
-- **model-best/** : Meilleur modèle entraîné
-- **model-last/** : Dernier modèle entraîné
-- **modele_siren/** : Modèle spécialisé pour l'extraction de SIREN
+modele_siren/ : modèle optimisé pour les numéros SIREN
 
-## Formats de Sortie
+Formats des résultats
+CSV : colonnes siren, contexte, confiance
 
-Les résultats sont exportés dans deux formats :
+JSON : format structuré avec métadonnées (entité, position, score)
 
-1. **CSV** : Tableau avec colonnes SIREN, contexte, confiance
-2. **JSON** : Structure détaillée avec métadonnées
-
-## Exemples de Résultats
-
-Les fichiers de résultats se trouvent dans `script python/resultats/` avec des timestamps pour le suivi des versions.
-
-## Contribution
-
-Pour contribuer au projet :
-
-1. Fork le repository
-2. Créer une branche pour votre fonctionnalité
-3. Commiter vos changements
-4. Pousser vers la branche
-5. Créer une Pull Request
-
-## Licence
-
-Ce projet est développé dans le cadre d'un stage à La Gazette.
-
-## Contact
-
-Pour toute question ou suggestion, veuillez ouvrir une issue sur GitHub.
-
----
-
-**Note** : Ce projet est en développement actif et les modèles sont régulièrement mis à jour pour améliorer la précision d'extraction. 
+Les résultats sont disponibles dans le dossier resultats/, avec un horodatage pour chaque exécution.

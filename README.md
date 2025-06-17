@@ -79,14 +79,14 @@ jupyter notebook exctraction du siren robuste.ipynb
 cd "script python"
 jupyter notebook auto apprentissage.ipynb
 ```
-##Modèles disponibles
+## Modèles disponibles
 model-best/ : meilleur modèle enregistré
 
 model-last/ : dernière version entraînée
 
 modele_siren/ : modèle optimisé pour les numéros SIREN
 
-##Formats des résultats
+## Formats des résultats
 CSV : colonnes siren, contexte, confiance
 
 JSON : format structuré avec métadonnées (entité, position, score)

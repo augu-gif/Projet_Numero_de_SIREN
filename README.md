@@ -92,3 +92,5 @@ CSV : colonnes siren, contexte, confiance
 JSON : format structuré avec métadonnées (entité, position, score)
 
 Les résultats sont disponibles dans le dossier resultats/, avec un horodatage pour chaque exécution.
+
+[Retour au Portfolio](https://github.com/augu-gif/mon-portfolio-data-analyst/blob/main/README.md)

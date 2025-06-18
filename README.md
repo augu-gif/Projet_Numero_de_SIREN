@@ -1,4 +1,10 @@
 # Extraction Automatique de Numéros SIREN
+## Lancer l'application 
+<p align="center">
+  <a href="https://augu-gif-projet-num-ro-de-siren-app-streamlit-rxtule.streamlit.app/">
+    <img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" alt="Streamlit App" width="200"/>
+  </a>
+</p>
 
 ## Présentation
 

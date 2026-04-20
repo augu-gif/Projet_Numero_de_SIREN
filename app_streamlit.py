@@ -214,8 +214,7 @@ with col2:
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #666; font-size: 0.9rem;">
-    <p>🚀 Développé avec Streamlit | La Gazette - Projet d'extraction SIREN</p>
-    <p>📧 Pour toute question, contactez l'équipe de développement</p>
+    <p>Développé avec Streamlit | La Gazette - Projet d'extraction SIREN</p>
 </div>
 """, unsafe_allow_html=True)
 

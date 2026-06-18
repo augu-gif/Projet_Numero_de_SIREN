@@ -174,9 +174,12 @@ if uploaded_file is not None:
 
 st.markdown("---")
 st.header("Ou utiliser un fichier de test local")
+local_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "annonces légales")
 local_files = get_annonces_legales_txt_files()
+st.write("Chemin du dossier local utilisé :", local_folder)
+st.write("Nombre de fichiers .txt trouvés :", len(local_files))
 if local_files:
-    st.info(f"Fichiers de test disponibles dans le dossier `annonces légales` : {', '.join(local_files)}")
+    st.info(f"Fichiers de test disponibles : {', '.join(local_files)}")
 else:
     st.warning("Aucun fichier de test .txt trouvé dans le dossier annonces légales.")
 selected_local_file = st.selectbox("Fichier de test local", [""] + local_files)

@@ -2,8 +2,14 @@ import streamlit as st
 import pandas as pd
 import re
 import os
-import spacy
 from datetime import datetime
+
+try:
+    import spacy
+    has_spacy = True
+except ImportError:
+    spacy = None
+    has_spacy = False
 
 # Configuration de base
 st.set_page_config(page_title="Extracteur SIREN - NER", page_icon="🏢")
@@ -54,18 +60,23 @@ def get_available_models():
     model_output_best = os.path.join(base_dir, "model_output", "model-best")
     model_output_last = os.path.join(base_dir, "model_output", "model-last")
 
-    if os.path.isdir(local_modeles_ner):
-        models["Modèle local modeles_ner"] = local_modeles_ner
-    if os.path.isdir(model_output_best):
-        models["Modèle local model_output/model-best"] = model_output_best
-    if os.path.isdir(model_output_last):
-        models["Modèle local model_output/model-last"] = model_output_last
+    if has_spacy:
+        if os.path.isdir(local_modeles_ner):
+            models["Modèle local modeles_ner"] = local_modeles_ner
+        if os.path.isdir(model_output_best):
+            models["Modèle local model_output/model-best"] = model_output_best
+        if os.path.isdir(model_output_last):
+            models["Modèle local model_output/model-last"] = model_output_last
+        models["Modèle spaCy fr_core_news_sm"] = None
+    else:
+        models["Extraction regex seule (spacy non disponible)"] = None
 
-    models["Modèle spaCy fr_core_news_sm"] = None
     return models
 
 @st.cache_resource
 def load_spacy_model(model_path):
+    if not has_spacy:
+        return None
     try:
         if model_path is None:
             return spacy.load("fr_core_news_sm")
@@ -125,10 +136,13 @@ selected_model = st.selectbox(
 )
 
 nlp = load_spacy_model(models[selected_model])
-if nlp is not None:
-    st.success(f"Modèle chargé : {selected_model}")
+if has_spacy:
+    if nlp is not None:
+        st.success(f"Modèle chargé : {selected_model}")
+    else:
+        st.warning("Aucun modèle NER chargé. L'extraction regex sera utilisée en fallback.")
 else:
-    st.warning("Aucun modèle NER chargé. L'extraction regex sera utilisée en fallback.")
+    st.warning("spaCy n'est pas installé. L'extraction regex sera utilisée uniquement.")
 
 st.markdown("---")
 st.header("Importer un fichier texte")

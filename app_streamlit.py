@@ -210,12 +210,11 @@ if selected_local_file:
                 file_name=f"siren_valides_local_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv",
                 mime="text/csv"
             )
-=======
+
 st.markdown("""
 <div style="text-align: center; color: #666; font-size: 0.9rem;">
     <p>🚀 Développé avec Streamlit | La Gazette - Projet d'extraction SIREN</p>
     <p>📧 Pour toute question, contactez l'équipe de développement</p>
 </div>
 """, unsafe_allow_html=True)
->>>>>>> parent of 1cef2b0 (Update app_streamlit.py)
 

@@ -145,6 +145,7 @@ else:
     st.warning("spaCy n'est pas installé. L'extraction regex sera utilisée uniquement.")
 
 st.markdown("---")
+<<<<<<< HEAD
 st.header("Importer un fichier texte")
 
 uploaded_file = st.file_uploader("Choisissez un fichier .txt", type=["txt"])
@@ -174,9 +175,12 @@ if uploaded_file is not None:
 
 st.markdown("---")
 st.header("Ou utiliser un fichier de test local")
+local_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "annonces légales")
 local_files = get_annonces_legales_txt_files()
+st.write("Chemin du dossier local utilisé :", local_folder)
+st.write("Nombre de fichiers .txt trouvés :", len(local_files))
 if local_files:
-    st.info(f"Fichiers de test disponibles dans le dossier `annonces légales` : {', '.join(local_files)}")
+    st.info(f"Fichiers de test disponibles : {', '.join(local_files)}")
 else:
     st.warning("Aucun fichier de test .txt trouvé dans le dossier annonces légales.")
 selected_local_file = st.selectbox("Fichier de test local", [""] + local_files)
@@ -206,4 +210,12 @@ if selected_local_file:
                 file_name=f"siren_valides_local_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv",
                 mime="text/csv"
             )
+=======
+st.markdown("""
+<div style="text-align: center; color: #666; font-size: 0.9rem;">
+    <p>🚀 Développé avec Streamlit | La Gazette - Projet d'extraction SIREN</p>
+    <p>📧 Pour toute question, contactez l'équipe de développement</p>
+</div>
+""", unsafe_allow_html=True)
+>>>>>>> parent of 1cef2b0 (Update app_streamlit.py)
 

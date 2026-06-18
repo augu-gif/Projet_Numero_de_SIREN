@@ -145,7 +145,6 @@ else:
     st.warning("spaCy n'est pas installé. L'extraction regex sera utilisée uniquement.")
 
 st.markdown("---")
-<<<<<<< HEAD
 st.header("Importer un fichier texte")
 
 uploaded_file = st.file_uploader("Choisissez un fichier .txt", type=["txt"])
